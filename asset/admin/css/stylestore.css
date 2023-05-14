@@ -1,0 +1,142 @@
+.menu-wrapper-menu-gold{
+    background-color:darksalmon;
+}
+.menu-wrapper, .menu a{
+    width: 100%;
+}
+
+.menu::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.menu a{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+    color:#000000;
+    border:hsla(0,0%,100%,0.00);
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu, .menu ul{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: hsla(0,0%,100%,0.00);
+}
+
+.menu ul li+li{
+    border-top: 0px solid hsla(0,0%,100%,0.00);
+}
+
+.menu ul{
+    position: absolute;
+    box-shadow:  5px 5px 10px 0 rgba(0,0,0, 0.5);
+}
+
+.menu > li ul, .menu ul ul{
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.menu > li ul{
+    top: 130%;
+    left: 0;
+}
+
+.menu ul ul{
+    left: 130%;
+}
+
+.menu ul a{
+    width: 250px;
+    display: block;
+}
+
+.menu > li:hover > ul{
+    top: 100%;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+.menu ul > li:hover > ul{
+    left: 100%;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+.menu-gold, .menu-gold a{
+    color: #000000;
+}
+.menu-gold a:hover{
+    background-color: gray;
+    color:#FAFAFA;
+}
+.donhang{
+    height: 600px;
+    width: 1000px;
+    background-color: #FAFAFA;
+}
+.three{
+    background-color: #FAFAFA;
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+.three ul li a{
+    list-style: none;
+
+    padding: 10px;
+}
+.three ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.wibu-4{
+    height:250px;
+    background: url(./anh/ha.jpg) ;
+    width: 100%;
+    float: left;
+
+}
+.pro-4 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.pro-4 ul li{
+    list-style: none;
+}
+.pro-5{
+    padding: 20px;
+}
+.pro-6{
+    padding: 20px 80px 60px 90px;
+}
+.pro-7{
+    padding: 20px 50px 0px 0px;
+}
+.three{
+
+}

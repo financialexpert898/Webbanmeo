@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #FFFFFF;
+	
+}
+#menu_top ul {
+	margin: 0px;
+	padding: 0 px;
+}
+#menu_top ul li { list-style: none;
+	float: left;
+	display: block;
+	padding: 0px 20px 20px 10px;
+}
+
+.2{
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 200px;
+}
+#menu_top2{ margin: 0px;
+	padding: 0px;
+}
+#menu_top2 ul li {
+	list-style: none;
+	float: left;
+}
+#menu_top2 ul li a{
+	text-decoration: none;
+	display: block;
+	
+}
+.tieude{
+	background-color: aqua
+}
+.4{padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 70px;	
+}
+

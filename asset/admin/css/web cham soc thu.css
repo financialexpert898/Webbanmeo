@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Times new roman;
+	 font-size: 14px;
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #141414
+}
+#diachi{
+	background: #141414;
+	height: 30px;
+}
+#baner{
+	background: #8882;
+	height: 90px;
+}
+
+#tuvan{
+	background: #734168;
+	height: 300px;
+}
+#diachi ul{ margin: 0px;
+	padding: 0px;
+	
+}
+#aaa{
+	margin: 0px;
+	padding: 0px 10px 15px 20px;
+}
+#diachi ul li{
+	list-style: none;
+	float: left;
+	color: white;
+	height: 10px;
+	line-height: 30px;
+	padding: 0px 60px 10px 10px;
+}
+#baner ul{
+	margin: 0px;
+	padding: 0px;
+	color: #DEA717;
+}
+#baner ul li{
+	list-style: none;
+	float: left;
+	padding: 25px 60px 20px 70px;
+}
+#baner a{
+	text-decoration: none;
+	color: #DEA717;
+}
+
+#main ul,li{
+	list-style: none;
+}
+#main{
+	margin: 0px;
+	padding: 0px;
+}
+#main ul {
+	display: flex;
+}
+#main li{
+	padding-right: 80px;
+	padding-left: 40px;
+}
+.text{text-align:center;
+}
+#text2{
+	margin: 0px;
+	padding: 0px;
+}
+#text2 ul,li{
+	float: left;
+	list-style: none;
+	display: flex;
+}
+.text3{
+	text-align: center;
+	padding: 50px 10px 10px 10px;
+}
+
+
+
+
+	
+

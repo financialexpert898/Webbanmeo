@@ -1,0 +1,79 @@
+@{Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml"; // Layout file for the view
+}
+<html>
+<head>
+  <typle>
+    <link rel="stylesheet" href="~/asset/admin/css/stylestore.css">
+  </typle>
+</head>
+<body>
+<div class="three">
+  <ul>
+    <li>
+      <nav class="woocommerce-breadcrumb breadcrumbs"><a href="http://mauweb.monamedia.net/petcare">Trang chủ</a> <span class="divider">/</span> Cửa hàng</nav>
+    </li>
+
+    <li>
+
+      <form class="woocommerce-ordering" method="get">
+        <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
+          <option value="menu_order" selected="selected">Thứ tự mặc định</option>
+          <option value="popularity">Thứ tự theo mức độ phổ biến</option>
+          <option value="rating">Thứ tự theo điểm đánh giá</option>
+          <option value="date">Mới nhất</option>
+          <option value="price">Thứ tự theo giá: thấp đến cao</option>
+          <option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
+        </select>
+        <input type="hidden" name="paged" value="1">
+      </form>
+    </li>
+
+  </ul>
+
+</div>
+<div>
+
+</div>
+
+<div class="wibu-4">
+  <ul class="pro-4s">
+    <li>
+      <div class="pro-5">
+        <p>Thú cưng của bạn đang ở trong tay tốt với <br>
+          đội ngũ bác sĩ thú y,chú rể huấn luyện viên<br>
+          chuyên nghiệp của chúng tôi. Chúng<br>
+          cung cấp động vật của bạn chỉ là một <br>
+          dịch vụ chất lượng hàng đầu <br>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-sharp fa-regular fa-bird"></i>
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="pro-6">
+        <h3>Liên Hệ</h3>
+        <p>
+          <i class="fa-solid fa-key"></i>
+          504 Quan Hoa Quận Cầu Giấy Hà Nội</p>
+        <p><i class="fa-regular fa-envelope"></i>
+          Longjungle295@gmail.com</p>
+        <p><i class="fa-solid fa-fax"></i>
+          0852334295</p>
+      </div>
+    </li>
+    <li>
+      <div class="pro-7">
+        <h3> Hỗ Trợ</h3>
+        <p>FAQ</p>
+        <p>Chăm sóc khách hàng</p>
+        <p>Vận chuyển và đổi hàng</p>
+        <p>Liên Hệ</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
