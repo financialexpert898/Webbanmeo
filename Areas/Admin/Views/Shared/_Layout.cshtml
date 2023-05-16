@@ -8,73 +8,69 @@
 <head>
     <meta charset="utf-8">
     <title>Untitled Document</title>
-    <link rel="stylesheet" type="text/css" href="web cham soc thu.css">
-    <link rel="stylesheet" type="text/css" href="muangay.css">
+    <link rel="stylesheet" type="text/css" href="~/asset/admin/css/web cham soc thu.css">
     <link rel="stylesheet" href="~/asset/admin/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
     </style>
 
 </head>
-
+    
 <body>
-<div id="diachi"><ul>
-        <li>HOME:521-Cổ Nhuế Nam Từ lIÊM,Tp.Hà Nội</li>
-        <li>Open Mon-Fri:6:30AM to 7PM,Sat:8AM to 5PM</li>
-        <li>info@long.ne</li>
-        <li>Đẹp trai</li>
-    </ul>
-    <div id="baner">
-        <li><img src="anh/logo pet.png" width="50" height="50" alt="Logo" /></li>
-        <li>
-            <a href="sodienthoai.html">Call Us 0852334295</a>
-        </li>
-        <li>Giỏ Hàng/0đ</li>
-        <li>
-            <div class="timkiem">
-                <form method="get">
-                    <input type="search" placeholder="Tìm Kiếm ">
-                </form>
-            </div>
-        </li>
-    </div>
-    <div>
-        <ul>
-            <div class="menu-wrapper-menu-gold">
-                <ul class="menu">
-                    <li><a href="@Url.Action("Index","Home")"> TRANG CHỦ</a></li>
-                    <li>
-                        <a href="@Url.Action("Index","Store")"> CỬA HÀNG</a>
-                        <ul>
-                            <li>
-                                <a href="giohang.html"> GIỎ HÀNG </a>
-                            </li>
-                            <li><a href="thanhtoan.html"> THANH TOÁN</a></li>
-                            <li><a href="kiemtradonhang.html"> KIỂM TRA ĐƠN HÀNG</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="gioithieu.html"> GIỚI THIỆU </a>
-                    </li>
-                    <li>
-                        <a href="tintuc.html"> TIN TỨC </a>
-                    </li>
-                    <li>
-                        <a href="muangay.html"> MUA NGAY </a>
-                    </li>
-                    <li>
-                        <a href="dangnhap2.html"> ĐĂNG NHẬP</a>
-                        <ul>
-                            <li>
-                                <a href="dangky.html"> ĐĂNG KÝ </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </ul>
-    </div>
+<div id="diachi">
+	<ul>
+		<li>
+			HOME:521-Cổ Nhuế Nam Từ lIÊM,Tp.Hà Nội 
+		</li>
+		<li>Open Mon-Fri:6:30AM to 7PM,Sat:8AM to 5PM</li>
+		<li>info@long.ne</li>
+		<li>Đẹp trai</li>
+	</ul>
 </div>
+	<div id="baner">
+	<ul>
+	  <li ><img src="~/asset/admin/anh/logo pet.png" width="50" height="50" alt=""/></li>
+	  <li>
+		  <a href="sodienthoai.html">Call Us 0852334295</a>
+		</li>
+	  <li>Giỏ Hàng/0đ</li>
+	  <li>
+		<div class="timkiem">   
+			<form> 
+	    <input type="search " placeholder="Tìm Kiếm ">
+			</form>
+		</div>
+	</li>
+	</ul>
+	</div>
+	<div class="menu-wrapper-menu-gold">	
+		<ul class="menu">
+		  <li><a href="@Url.Action("Index","Home")"> TRANG CHỦ</a></li>
+		  <li>
+			<a href="@Url.Action("Index","Store")"> CỬA HÀNG</a>
+			<ul>
+			 <li><a href="giohang.html"> GIỎ HÀNG </a>
+			</li>
+			  <li><a href="thanhtoan.html"> THANH TOÁN</a>
+			<li><a href="kiemtradonhang.html"> KIỂM TRA ĐƠN HÀNG</a>		 
+		  </ul></li>
+		  
+		  <li>
+			<a href="gioithieu.html"> GIỚI THIỆU </a>
+		  <li><a href="@Url.Action("Index","News")"> TIN TỨC </a>
+		  </li>
+		  <li><a href="muangay.html"> MUA NGAY </a>
+		  </li>
+		  <li>
+			<a href="dangnhap2.html"> ĐĂNG NHẬP</a>
+			<ul>
+			 <li><a href="dangky.html"> ĐĂNG KÝ </a>
+			</li>	 
+		  </ul>
+		  </li>
+		  </ul>
+	  </div>
+	
 @RenderBody()
 </body>
 </html>
